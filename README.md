@@ -1,6 +1,6 @@
 # O Desafio?
 
- O desafio foi cria um site front-end em React onde á habilidade em html e css serão testadas e avaliadas, a pessoa que está sendo testada teria que fazer um site baseado no modelo de site que o entrevistador envia por email.
+ O desafio foi criar um site front-end em React onde á habilidade em html e css serão testadas e avaliadas, a pessoa que está sendo testada teria que fazer um site baseado no modelo de site que o entrevistador envia por email.
 
 # O que achei do desafio?
  Achei incrivel o desafio pois vi que consigo estar aprendendo e ja iniciando em uma ferramenta nova que foi o React.
