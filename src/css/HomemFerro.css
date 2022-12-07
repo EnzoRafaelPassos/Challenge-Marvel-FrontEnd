@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+
+}
+
+/* background do site inicial */
+.background-pesquisar>.background-imagem {
+    width: 100%;
+    z-index: 999;
+}
+
+.background-todo {
+    margin-left: 0;
+
+}
+
+.card-background-todo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-background {
+    position: absolute;
+    margin-top: 30vh;
+    padding-bottom: 3vw;
+    background-color: white;
+    width: 1000px;
+    height: 250px;
+    display: flex;
+    border-top-right-radius: 30px;
+    border-Bottom-left-radius: 30px;
+    border-top-left-radius: 5px;
+    border-Bottom-right-radius: 5px;
+    margin-bottom: 100px;
+    -webkit-box-shadow: -6px 11px 32px -18px rgba(0, 0, 0, 1);
+    -moz-box-shadow: -6px 11px 32px -18px rgba(0, 0, 0, 1);
+    box-shadow: -6px 11px 32px -18px rgba(0, 0, 0, 1);
+}
+
+.img-homemFerro {
+    margin-top: 10vh;
+    margin-left: 3vw;
+    margin-right: 30px;
+    border-radius: 60%;
+    width: 200px;
+}
+
+.texto-right {
+    margin-top: 10vh;
+}
+
+.titulo-cardHeroi {
+    margin-bottom: 50px;
+}
+
+.paragrafo-cardHeroi {
+    margin-right: 100px;
+}
+
+/* corpo do site */
+
+.titulo-comics {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.backgroundTodo-cardComics {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.background-cardComics {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 265px;
+    width: 1000px;
+    -webkit-box-shadow: -6px 11px 32px -18px rgba(0, 0, 0, 1);
+    -moz-box-shadow: -6px 11px 32px -18px rgba(0, 0, 0, 1);
+    box-shadow: -6px 11px 32px -18px rgba(0, 0, 0, 1);
+    border-top-right-radius: 40px;
+    border-Bottom-right-radius: 5px;
+
+}
+
+.textoComics-right {
+    margin: 10px;
+}
+
+.paragrafo-detalhes-cards {
+    display: flex;
+    padding: 10px;
+}
+
+.paragrafo-detalhes {
+    margin-left: 10px;
+}
+
+.tituloComics {
+    margin-left: 10px;
+}
+
+.assunto-comics {
+    margin: 10px;
+    font-size: 15px;
+}
+
+.voltar-comics {
+    display: flex;
+    position: absolute;
+    right: 200px;
+}
+
+h2 {
+    color: #FFCDD2;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.img-back {
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+/* responsividade */
+@media (max-width: 750px) {
+
+    .card-background {
+        width: 300px;
+        height: 170px;
+        margin-top: 15vh;
+    }
+
+    .voltar-comics {
+        display: none;
+    }
+
+    .img-homemFerro {
+        width: 70px;
+        height: 70px;
+        margin-top: 5vh;
+        margin-left: 4vw;
+        margin-bottom: 0;
+    }
+
+    .titulo-cardHeroi{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .paragrafo-cardHeroi{
+        font-size: 11px;
+        padding-bottom: 2px;
+        margin: 1px;
+        margin-top: 0;
+       
+    }
+
+    .texto-right {
+        margin-top:3vh;
+        margin: 10px;
+        margin-right: 10px;
+    }
+
+    .titulo-comics {
+        margin-top: 30vh;
+
+    }
+
+    .backgroundTodo-cardComics {
+        margin-top: 50px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .img-homemAranhaCard {
+        height: 165px;
+        width: 150px;
+    }
+  .tituloComics {
+    font-size: 10px;
+  }
+
+  .paragrafo-detalhes-cards {
+    font-size: 8px;
+    margin: 0px;
+  }
+
+  .assunto-comics{
+    font-size: 7px;
+    margin: 5px;
+
+  }
+
+ 
+
+.background-cardComics {
+    height: 165px;
+}
+
+}

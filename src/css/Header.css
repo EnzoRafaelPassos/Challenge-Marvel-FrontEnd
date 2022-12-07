@@ -1,0 +1,128 @@
+/* editando o Header */
+header {
+    width: 100%;
+    height: 150px;
+    background-color: #202020;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+
+}
+
+
+
+.img-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.logo,
+.logo-titulo {
+    display: flex;
+}
+
+.logo-titulo {
+    margin-top: 10px;
+    color: white;
+}
+
+
+
+.botao-yourTime>.botao-header {
+    width: 150px;
+    height: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.botao-header,
+.botao-titulo {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.botao-header {
+    padding-top: 18px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #F43735;
+    border: none;
+}
+
+.botao-header>.botao-titulo,
+.icon-button-header {
+    margin-bottom: 20px;
+}
+
+.icon-button-header {
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+
+}
+
+/* alinha logo com o botao */
+.logo,
+.botao-yourTime {
+    margin-top: 50px;
+
+}
+
+
+@media (max-width: 750px) {
+    header {
+        height: 100px;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .img-logo {
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+
+    .logo-titulo {
+        font-size: 15px;
+    }
+
+
+
+    .botao-yourTime>.botao-header {
+        width: 90px;
+        height: 30px;
+        margin-right: 10px;
+        border-top-right-radius: 11px;
+        border-bottom-left-radius: 11px;
+        border-top-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+
+    .icon-button-header {
+        height: 15px;
+        width: 15px;
+        margin-left: 5px;
+    }
+
+    .botao-titulo {
+        font-size: 11px;
+        margin-left: 5px;
+    }
+
+    .botao-header {
+        padding-left: 3px;
+
+    }
+
+}
